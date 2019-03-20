@@ -1,14 +1,16 @@
 body {
      background-color: #FFFFFF;
-     font-size: toDo;
+     margin: 0;
+     padding: 0;
+     border: 0;
 }
 
 .name {
-     grid-template-columns: auto;
-     grid-template-rows: auto;
+     grid-template-columns: 10% auto 10%;
+     grid-template-rows: 32% auto 48%;
      display: grid;
      color: #000000;
-     size: toDo;
+     size: 2em; 
 }
 
 .job {
