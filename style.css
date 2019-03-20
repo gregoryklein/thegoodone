@@ -20,7 +20,18 @@ body {
      color: #000000;
 }
 
+.bottomhalf {
+     display: flex;
+     flex-flow: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+}
 .social {
      display: flex;
-     color: #f03efc;
+
+}
+
+.shibe {
+     size: 100px 100px;
 }
