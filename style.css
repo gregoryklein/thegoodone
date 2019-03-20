@@ -6,19 +6,21 @@ body {
 }
 
 .name {
-     grid-template-columns: 10% auto 10%;
-     grid-template-rows: 32% auto 48%;
      display: grid;
+     grid-template-columns: 10% auto 10%;
+     grid-template-rows: 1fr;
      color: #000000;
      size: 2em; 
 }
 
 .job {
      display: grid;
+     grid-template-columns: 10% auto 10%;
+     grid-template-rows: 1fr;
      color: #000000;
 }
 
 .social {
-     display: grid;
+     display: flex;
      color: #f03efc;
 }
