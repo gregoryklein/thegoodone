@@ -19,5 +19,6 @@ body {
 }
 
 .social {
-     display: grid; 
+     display: grid;
+     color: #f03efc;
 }
